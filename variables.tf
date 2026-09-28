@@ -40,8 +40,8 @@ variable "allow_public_ip" {
   default     = false
 }
 
-variable "count" {
+variable "instance_count" {
   description = "Number of EC2 instances to create"
   type        = number
-  default     = 1
+  default     = 2
 }

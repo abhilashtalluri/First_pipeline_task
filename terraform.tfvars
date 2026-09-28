@@ -6,4 +6,4 @@ key_name     = "EC2login"
 subnet_id = "subnet-0e3dfc2b222385c42"
 security_groups = ["sg-0d5c6316b80b22e52"]
 allow_public_ip = true
-count = 2
+instance_count = 2
